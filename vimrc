@@ -29,3 +29,7 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_aggregate_errors = 1
+" Nvim-R settings
+let R_in_buffer = 1
+let R_close_term = 1
+let R_rconsole_height = 5

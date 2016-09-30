@@ -14,6 +14,9 @@ echo "Installing syntactic syntax checker"
 cd ~/.vim/bundle && \
 git clone --depth=1 https://github.com/scrooloose/syntastic.git
 
+echo "Installing Nvim-R"
+cd ~/.vim/bundle && \
+git clone --depth=1 https://github.com/jalvesaq/Nvim-R.git
 
 # TMUX
 

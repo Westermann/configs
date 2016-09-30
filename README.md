@@ -8,3 +8,5 @@ __Warning: These are just my config and settings files I like to use when I am o
 * [tmux](https://tmux.github.io/) should be installed
 * Obviously, git should be installed
 * curl is required
+* R should be installed
+* Vim should be installed

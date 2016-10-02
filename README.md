@@ -12,4 +12,4 @@ __Warning: These are just my config and settings files I like to use when I am o
 * Vim should be installed
 
 ## Usage
-`url https://raw.githubusercontent.com/Westermann/configs/master/setup_configs.sh | sh`
+`curl https://raw.githubusercontent.com/Westermann/configs/master/setup_configs.sh | sh`

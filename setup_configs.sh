@@ -1,10 +1,8 @@
-BASEDIR=$(pwd)
-
 # VIM
 
 echo "Overwriting vimrc file"
-cd $BASEDIR 
-cp vimrc ~/.vimrc
+mv ~/.vimrc ~/.vimrc.bak
+curl https://raw.githubusercontent.com/Westermann/configs/master/vimrc >> ~/.vimrc
 
 echo "Installing pathogen for vim"
 mkdir -p ~/.vim/autoload ~/.vim/bundle && \
@@ -29,5 +27,5 @@ cd ~/.vim/bundle && \
 # TMUX
 
 echo "Overwriting tmux.conf file"
-cd $BASEDIR 
-cp tmux.conf ~/.tmux.conf
+mv ~/.tmux.conf ~/.tmux.conf.bak
+curl https://raw.githubusercontent.com/Westermann/configs/master/tmux.conf >> ~/.tmux.conf

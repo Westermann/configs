@@ -20,7 +20,7 @@ curl https://raw.githubusercontent.com/Westermann/configs/master/zshrc >> ~/.zsh
 echo "###                                                                          ###"
 echo "###  Install Oh-my-zsh                                                       ###"
 echo "###                                                                          ###"
-curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 
 # VIM

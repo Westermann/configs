@@ -9,6 +9,15 @@ echo "###                                                                       
 echo "###   =====================================================================  ###"
 
 
+# ZSH
+
+echo "###                                                                          ###"
+echo "###  Overwriting zshrc file                                                  ###"
+echo "###                                                                          ###"
+mv ~/.zshrc ~/.zshrc.bak
+curl https://raw.githubusercontent.com/Westermann/configs/master/zshrc >> ~/.zshrc
+
+
 # VIM
 
 echo "###                                                                          ###"
@@ -46,6 +55,7 @@ echo "###  Installing NERDTree                                                  
 echo "###                                                                          ###"
 cd ~/.vim/bundle && \
   git clone --depth=1 https://github.com/scrooloose/nerdtree.git
+
 
 # TMUX
 

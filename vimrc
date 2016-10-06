@@ -19,7 +19,7 @@ set cmdheight=2
 set number
 set history=1000
 set showmatch
-  " activate plugins
+" activate plugins
 execute pathogen#infect()
 " syntastic settings
 set statusline+=%#warningmsg#

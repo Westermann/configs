@@ -12,15 +12,15 @@ echo "###   ====================================================================
 # ZSH
 
 echo "###                                                                          ###"
+echo "###  Install Oh-my-zsh                                                       ###"
+echo "###                                                                          ###"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+echo "###                                                                          ###"
 echo "###  Overwriting zshrc file                                                  ###"
 echo "###                                                                          ###"
 mv ~/.zshrc ~/.zshrc.bak
 curl https://raw.githubusercontent.com/Westermann/configs/master/zshrc >> ~/.zshrc
-
-echo "###                                                                          ###"
-echo "###  Install Oh-my-zsh                                                       ###"
-echo "###                                                                          ###"
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 
 # VIM

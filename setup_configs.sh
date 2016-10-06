@@ -21,7 +21,7 @@ echo "###  Overwriting zshrc file                                               
 echo "###                                                                          ###"
 mv ~/.zshrc ~/.zshrc.bak
 curl https://raw.githubusercontent.com/Westermann/configs/master/zshrc >> ~/.zshrc
-
+sed -i.bak "s~<putuserhomedirectoryhere>~$HOME~" ~/.zshrc
 
 # VIM
 

@@ -10,6 +10,7 @@ __Warning: These are just my config and settings files I like to use when I am o
 * curl is required
 * R should be installed
 * Vim should be installed
+* [zsh](http://zsh.sourceforge.net/) should be installed
 
 ## Usage
 `curl https://raw.githubusercontent.com/Westermann/configs/master/setup_configs.sh | sh`

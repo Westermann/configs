@@ -67,6 +67,12 @@ echo "###                                                                       
 cd ~/.vim/bundle
 git clone git://github.com/tpope/vim-fugitive.git
 
+echo "###                                                                          ###"
+echo "###  Installing vim surround                                                 ###"
+echo "###                                                                          ###"
+cd ~/.vim/bundle
+git clone git://github.com/tpope/vim-surround.git
+
 # TMUX
 
 echo "###                                                                          ###"

@@ -64,14 +64,20 @@ cd ~/.vim/bundle && \
 echo "###                                                                          ###"
 echo "###  Installing vim fugitive                                                 ###"
 echo "###                                                                          ###"
-cd ~/.vim/bundle
-git clone git://github.com/tpope/vim-fugitive.git
+cd ~/.vim/bundle && \
+  git clone git://github.com/tpope/vim-fugitive.git
 
 echo "###                                                                          ###"
 echo "###  Installing vim surround                                                 ###"
 echo "###                                                                          ###"
-cd ~/.vim/bundle
-git clone git://github.com/tpope/vim-surround.git
+cd ~/.vim/bundle && \
+  git clone git://github.com/tpope/vim-surround.git
+
+echo "###                                                                          ###"
+echo "###  Installing vim airline                                                  ###"
+echo "###                                                                          ###"
+cd ~/.vim/bundle && \
+  git clone https://github.com/vim-airline/vim-airline
 
 # TMUX
 

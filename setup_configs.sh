@@ -61,6 +61,11 @@ echo "###                                                                       
 cd ~/.vim/bundle && \
   git clone --depth=1 https://github.com/scrooloose/nerdtree.git
 
+echo "###                                                                          ###"
+echo "###  Installing vim fugitive                                                 ###"
+echo "###                                                                          ###"
+cd ~/.vim/bundle
+git clone git://github.com/tpope/vim-fugitive.git
 
 # TMUX
 

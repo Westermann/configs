@@ -40,5 +40,8 @@ map <C-n> :NERDTreeToggle<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 " airline statusline
 let g:airline_theme='simple'
-" vim rmarkdown
+" for python
+autocmd FileType python map <LocalLeader>p :w !python %<CR>
+" for rmarkdown
 au BufRead,BufNewFile *.Rmd set filetype=rmarkdown
+autocmd FileType rmarkdown map <LocalLeader>r :w <CR> :RMarkdown pdf latex_engine="xelatex"<CR>

@@ -75,11 +75,19 @@ cd ~/.vim/bundle && \
   git clone git://github.com/tpope/vim-surround.git
 
 echo "###                                                                          ###"
-echo "###  Installing vim airline                                                  ###"
+echo "###  installing vim airline                                                  ###"
 echo "###                                                                          ###"
 cd ~/.vim/bundle && \
   git clone https://github.com/vim-airline/vim-airline && \
   https://github.com/vim-airline/vim-airline-themes
+
+echo "###                                                                          ###"
+echo "###  installing vim rmarkdown                                                ###"
+echo "###                                                                          ###"
+cd ~/.vim/bundle
+git clone https://github.com/vim-pandoc/vim-pandoc
+git clone https://github.com/vim-pandoc/vim-pandoc-syntax
+git clone https://github.com/vim-pandoc/vim-rmarkdown
 
 
 # TMUX

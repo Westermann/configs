@@ -18,6 +18,9 @@ sudo apt-get install vim
 # TMUX
 sudo apt-get install tmux
 
+# Pandoc
+sudo apt-get install pandoc
+
 echo "~~~                                                                          ~~~"
 echo "~~~                                                                          ~~~"
 echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"

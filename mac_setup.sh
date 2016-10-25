@@ -18,6 +18,9 @@ brew install vim
 # TMUX
 brew install tmux
 
+# Pandoc
+brew install pandoc
+
 echo "~~~                                                                          ~~~"
 echo "~~~                                                                          ~~~"
 echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"

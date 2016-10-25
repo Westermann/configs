@@ -40,3 +40,5 @@ map <C-n> :NERDTreeToggle<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 " airline statusline
 let g:airline_theme='simple'
+" vim rmarkdown
+au BufRead,BufNewFile *.Rmd set filetype=rmarkdown

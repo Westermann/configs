@@ -7,7 +7,7 @@ echo "~~~   This remote script will now install all my cloud computing essential
 echo "~~~                                                                          ~~~"
 echo "~~~   =====================================================================  ~~~"
 
-sudo yum update
+sudo yum -y update
 
 # ZSH
 sudo yum -y install zsh

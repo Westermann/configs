@@ -89,6 +89,11 @@ git clone https://github.com/vim-pandoc/vim-pandoc
 git clone https://github.com/vim-pandoc/vim-pandoc-syntax
 git clone https://github.com/vim-pandoc/vim-rmarkdown
 
+echo "###                                                                          ###"
+echo "###  installing vim rmarkdown                                                ###"
+echo "###                                                                          ###"
+cd ~/.vim/bundle $$ \
+  git clone https://github.com/moll/vim-node.git node
 
 # TMUX
 

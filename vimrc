@@ -41,7 +41,14 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 " airline statusline
 let g:airline_theme='simple'
 " for python
-autocmd FileType python map <LocalLeader>p :w !python %<CR>
-" for rmarkdown
+autocmd FileType python map <LocalLeader>p :w<CR> :w !python %<CR>
+" for r & rmarkdown
+let g:syntastic_enable_r_lintr_checker = 1
 au BufRead,BufNewFile *.Rmd set filetype=rmarkdown
-autocmd FileType rmarkdown map <LocalLeader>r :w <CR> :RMarkdown pdf latex_engine="xelatex"<CR>
+autocmd FileType rmarkdown map <LocalLeader>r :w<CR> :RMarkdown pdf latex_engine="xelatex"<CR>
+" use rmarkdown for normal markdown
+au BufRead,BufNewFile *.md set filetype=rmarkdown
+" for JavaScript
+au BufRead,BufNewFile *.sjs set filetype=javascript
+au BufRead,BufNewFile *.ms set filetype=javascript
+

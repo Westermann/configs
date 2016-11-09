@@ -10,13 +10,13 @@ echo "~~~   ====================================================================
 sudo yum update
 
 # ZSH
-sudo yum install zsh
+sudo yum -y install zsh
 
 # VIM
-sudo yum install vim
+sudo yum -y install vim
 
 # TMUX
-sudo yum install tmux
+sudo yum -y install tmux
 
 echo "~~~                                                                          ~~~"
 echo "~~~                                                                          ~~~"

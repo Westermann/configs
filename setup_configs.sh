@@ -90,10 +90,10 @@ git clone https://github.com/vim-pandoc/vim-pandoc-syntax
 git clone https://github.com/vim-pandoc/vim-rmarkdown
 
 echo "###                                                                          ###"
-echo "###  installing vim rmarkdown                                                ###"
+echo "###  installing vim jinja2-syntax                                            ###"
 echo "###                                                                          ###"
 cd ~/.vim/bundle $$ \
-  git clone https://github.com/moll/vim-node.git node
+  git clone https://github.com/Glench/Vim-Jinja2-Syntax
 
 # TMUX
 

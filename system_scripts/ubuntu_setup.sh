@@ -9,20 +9,20 @@ echo "~~~   ====================================================================
 
 sudo apt-get update
 
+# GIT
+sudo apt-get -y install git
+
 # ZSH
-sudo apt-get install zsh
+sudo apt-get -y install zsh
 
 # VIM
-sudo apt-get install vim
-
-# GIT
-sudo apt-get install git
+sudo apt-get -y install vim
 
 # TMUX
-sudo apt-get install tmux
+sudo apt-get -y install tmux
 
 # Pandoc
-sudo apt-get install pandoc
+sudo apt-get -y install pandoc
 
 echo "~~~                                                                          ~~~"
 echo "~~~                                                                          ~~~"

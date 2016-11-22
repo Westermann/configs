@@ -15,6 +15,9 @@ sudo apt-get install zsh
 # VIM
 sudo apt-get install vim
 
+# GIT
+sudo apt-get install git
+
 # TMUX
 sudo apt-get install tmux
 

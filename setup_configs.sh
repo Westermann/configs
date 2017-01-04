@@ -95,6 +95,20 @@ echo "###                                                                       
 cd ~/.vim/bundle $$ \
   git clone https://github.com/Glench/Vim-Jinja2-Syntax
 
+echo "###                                                                          ###"
+echo "###  installing vim jinja2-syntax                                            ###"
+echo "###                                                                          ###"
+cd ~/.vim/bundle
+git clone https://github.com/scrooloose/nerdcommenter.git
+
+
+echo "###                                                                          ###"
+echo "###  installing vim commenting (with gcc)                                    ###"
+echo "###                                                                          ###"
+cd ~/.vim/bundle
+git clone git clone git://github.com/tpope/vim-commentary.git
+
+
 # TMUX
 
 echo "###                                                                          ###"

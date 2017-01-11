@@ -57,6 +57,12 @@ cd ~/.vim/bundle && \
   git clone --depth=1 https://github.com/vim-scripts/indentpython.vim
 
 echo "###                                                                          ###"
+echo "###  Installing JSX syntax                                                   ###"
+echo "###                                                                          ###"
+cd ~/.vim/bundle && \
+  git clone https://github.com/mxw/vim-jsx.git
+
+echo "###                                                                          ###"
 echo "###  Installing NERDTree                                                     ###"
 echo "###                                                                          ###"
 cd ~/.vim/bundle && \

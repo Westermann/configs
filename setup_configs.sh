@@ -112,7 +112,7 @@ echo "###                                                                       
 echo "###  installing vim commenting (with gcc)                                    ###"
 echo "###                                                                          ###"
 cd ~/.vim/bundle
-git clone git clone git://github.com/tpope/vim-commentary.git
+git clone git://github.com/tpope/vim-commentary.git
 
 
 # TMUX

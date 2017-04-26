@@ -9,6 +9,9 @@ echo "~~~   ====================================================================
 
 sudo yum -y update
 
+# GIT
+sudo yum -y install git
+
 # ZSH
 sudo yum -y install zsh
 

@@ -15,6 +15,7 @@ echo "###                                                                       
 echo "###  Install Oh-my-zsh                                                       ###"
 echo "###                                                                          ###"
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+sudo chsh -s /bin/zsh $(whoami)
 
 echo "###                                                                          ###"
 echo "###  Overwriting zshrc file                                                  ###"

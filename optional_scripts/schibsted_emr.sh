@@ -1,3 +1,5 @@
+sudo chsh -s /bin/zsh hadoop
+
 # python and all common dependencies
 curl -O https://www.python.org/ftp/python/3.5.0/Python-3.5.0.tgz 
 tar -zxvf Python-3.5.0.tgz

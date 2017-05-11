@@ -18,8 +18,14 @@ sudo yum -y install zsh
 # VIM
 sudo yum -y install vim
 
-# TMUX
+# tmux
 sudo yum -y install tmux
+
+# htop
+sudo yum -y install htop
+
+# set time
+sudo ln -sf /usr/share/zoneinfo/Europe/Berlin /etc/localtime
 
 echo "~~~                                                                          ~~~"
 echo "~~~                                                                          ~~~"

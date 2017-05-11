@@ -15,6 +15,7 @@ sudo pip3 install psycopg2
 sudo pip3 install seaborn
 sudo pip3 install cookiecutter
 sudo pip3 install python-dotenv
+sudo pip3 install pyspark
 
 # all the stuff for jupyter
 sudo pip3 install jupyter
@@ -22,6 +23,7 @@ sudo pip3 install jupyter_contrib_nbextensions
 cd $(jupyter --data-dir)/nbextensions
 git clone https://github.com/lambdalisue/jupyter-vim-binding vim_binding
 jupyter nbextension enable vim_binding/vim_binding
+
 # this is all for apache toree
 curl https://bintray.com/sbt/rpm/rpm | sudo tee /etc/yum.repos.d/bintray-sbt-rpm.repo
 sudo yum -y install sbt
@@ -33,7 +35,7 @@ cert-digest-algo SHA512
 default-preference-list SHA512 SHA384 SHA256 SHA224 AES256 AES192 AES CAST5 ZLIB BZIP2 ZIP Uncompressed" >> ~/.gnupg/gpg.conf
 GPG_TTY=`tty`
 cd ~
-git clone git@github.com:apache/incubator-toree.git
+git clone https://github.com/apache/incubator-toree.git
 cd incubator-toree
 sed -i 's/2\.0\.0/2.1.0/g' Makefile
 sudo make release

@@ -22,11 +22,10 @@ sudo pip3 install xgboost
 sudo pip3 install jupyter
 sudo pip3 install jupyterthemes
 sudo pip3 install jupyter_contrib_nbextensions
-mkdir $(jupyter --data-dir)/nbextensions
+mkdir -p $(jupyter --data-dir)/nbextensions
 cd $(jupyter --data-dir)/nbextensions
 git clone https://github.com/lambdalisue/jupyter-vim-binding vim_binding
 jupyter nbextension enable vim_binding/vim_binding
-jt -t grade3 -cursc b -cursw 5
 
 # this is all for apache toree
 curl https://bintray.com/sbt/rpm/rpm | sudo tee /etc/yum.repos.d/bintray-sbt-rpm.repo

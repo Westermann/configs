@@ -21,6 +21,9 @@ sudo yum -y install vim
 # TMUX
 sudo yum -y install tmux
 
+# HTOP
+sudo yum -y install htop
+
 echo "~~~                                                                          ~~~"
 echo "~~~                                                                          ~~~"
 echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"

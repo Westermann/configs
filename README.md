@@ -14,3 +14,6 @@ __Warning: These are just my config and settings files I like to use when I am o
 
 ## Usage
 `curl https://raw.githubusercontent.com/Westermann/configs/master/setup_configs.sh | sh`
+
+## Notes
+* For Spark, need to `source /etc/spark/conf/spark-env.sh` before starting python or something

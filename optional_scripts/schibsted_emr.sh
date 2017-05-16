@@ -28,6 +28,7 @@ git clone https://github.com/lambdalisue/jupyter-vim-binding vim_binding
 jupyter nbextension enable vim_binding/vim_binding
 
 # this is all for apache toree
+sudo gpg --gen-key
 curl https://bintray.com/sbt/rpm/rpm | sudo tee /etc/yum.repos.d/bintray-sbt-rpm.repo
 sudo yum -y install sbt
 sudo yum -y install gnupg

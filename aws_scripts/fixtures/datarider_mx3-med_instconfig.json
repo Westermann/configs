@@ -1,0 +1,8 @@
+{
+    "ImageId": "ami-d1c0c4b7",
+    "KeyName": "datarider",
+    "SecurityGroups": [
+        "datarider"
+    ],
+    "InstanceType": "m3.medium"
+}

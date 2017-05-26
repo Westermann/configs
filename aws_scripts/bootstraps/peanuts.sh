@@ -4,4 +4,5 @@ cd Just-Peanuts
 curl https://raw.githubusercontent.com/Westermann/configs/jupyter/optional_scripts/jupyter.sh | sh
 make create_environment
 source venv/bin/activate
+pip install --upgrade pip
 make python_requirements

@@ -14,3 +14,6 @@ __Warning: These are just my config and settings files I like to use when I am o
 
 ## Usage
 `curl https://raw.githubusercontent.com/Westermann/configs/master/setup_configs.sh | sh`
+
+## Configs 0.2
+* Add [Jupyter Boilerplate](https://github.com/moble/jupyter_boilerplate)
